@@ -1,5 +1,5 @@
+# client side
 .idea/
-client/node_modules
 client/node_modules
 client/.pnp
 client/.pnp.js
@@ -20,4 +20,7 @@ client/.env.production.local
 
 client/npm-debug.log*
 client/yarn-debug.log*
-cleint/yarn-error.log*
+client/yarn-error.log*
+
+# server side
+server/node_modules
