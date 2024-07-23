@@ -1,5 +1,4 @@
 # client side
-.idea/
 client/node_modules
 client/.pnp
 client/.pnp.js
