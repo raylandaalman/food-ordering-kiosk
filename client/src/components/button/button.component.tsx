@@ -24,7 +24,7 @@ class Button extends Component<ButtonProps> {
   render() {
     return (
       <button
-        className={`button-color ${Button_Type_Classes[this.props.color]}`}
+        className={`front-button ${Button_Type_Classes[this.props.color]}`}
       >
         { this.props.text }
       </button>

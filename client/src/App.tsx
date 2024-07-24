@@ -12,12 +12,10 @@ function App() {
     <div className="App">
       <Header />
       <Footer />
-      <Button text='A button' color='blue'/>
-      <Button text='B button' color='green'/>
-      <img 
-        src={require('./images/main-food-drink.png')}
-        alt='food right drink left'
-      />
+      <div className='mainButtons'>
+        <Button text='A button' color='blue'/>
+        <Button text='B button' color='green'/>
+      </div>
     </div>
   );
 }
