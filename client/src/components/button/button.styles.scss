@@ -1,0 +1,38 @@
+.front-button {
+  min-width: 12rem;
+  width: auto;
+  height: 9rem;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 55px;
+  background-color: #aaa;
+  font-family: 'sans-serif';
+  font-weight: bolder;
+  font-size: 3rem;
+  cursor: pointer;
+  color: #222;
+  border: 0.5rem solid #ddd;
+  border-radius: 20px;
+
+  &.green-button {
+    background-color: #007700;
+    color: #00ff00;
+    border: 0.5rem solid #004400;
+
+    &:active {
+      background-color: #003300;
+      color: #00aa00;
+    }
+  }
+
+  &.blue-button {
+    background-color: #007777;
+    color: #00ffff;
+    border: 0.5rem solid #004444;
+
+    &:active {
+      background-color: #003333;
+      color: #00aaaa;
+    }
+  }
+}

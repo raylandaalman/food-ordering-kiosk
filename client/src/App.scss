@@ -15,9 +15,13 @@
   }
 */
   .mainButtons {
-    z-index: 1;
     position: relative;
-    bottom: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 10%;
+
   }
 
 }

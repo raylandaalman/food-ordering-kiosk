@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Footer />
       <div className='mainButtons'>
-        <Button text='A button' color='blue'/>
-        <Button text='B button' color='green'/>
+        <Button text='Specialty Drinks' color='green'/>
+        <Button text='Delicious Food' color='blue'/>
       </div>
     </div>
   );
