@@ -6,13 +6,15 @@ interface ButtonProps {
   color: string;
 }
 
+/*
 interface Button_Type_Classes {
   blue: string;
   green: string;
   gray: string;
 }
+*/
 
-const Button_Type_Classes = {
+const Button_Type_Classes: {[key: string]: string} = {
   blue: 'blue-button',
   green: 'green-button',
   gray: 'gray-button'
