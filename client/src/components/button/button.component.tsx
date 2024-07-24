@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import './mainButtons.styles.scss';
+import './button.styles.scss';
 
 interface ButtonProps {
   text: string;
@@ -12,14 +12,22 @@ interface Button_Type_Classes {
   gray: string;
 }
 
-const Button_Type_Classes<Button_Type_Classes> {
+const Button_Type_Classes = {
   blue: 'blue-button',
   green: 'green-button',
   gray: 'gray-button'
 }
 
 class Button extends Component<ButtonProps> {
-  
+  render() {
+    return (
+      <button
+        className={`button-color ${Button_Type_Classes[this.props.color]}`}
+      >
+        { this.props.text }
+      </button>
+    )
+  }
 }
 
-export default MainButtons;
+export default Button;

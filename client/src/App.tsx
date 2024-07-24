@@ -3,7 +3,7 @@ import './App.scss';
 
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
-import MainButtons from './components/mainButtons/mainButtons.component';
+import Button from './components/button/button.component';
 
 
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Footer />
-      <MainButtons />
+      <Button text='A button' color='blue'/>
       <img 
         src={require('./images/main-food-drink.png')}
         alt='food right drink left'
