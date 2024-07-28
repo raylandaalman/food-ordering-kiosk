@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "pnpm -C client start"
+    "client": "pnpm -C client start",
+    "install-client": "pnpm -C client install",
+    "install-server": "pnpm -C server install"
   },
   "keywords": [],
   "author": "",

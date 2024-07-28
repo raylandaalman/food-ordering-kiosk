@@ -1,22 +1,14 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 
-import Header from './components/header/header.component';
-import Footer from './components/footer/footer.component';
-import Button from './components/button/button.component';
+import Home from './routes/home/home';
 
-
-
-function App() {
+const App: React.FC = (): JSX.Element => {
   return (
-    <div className="App">
-      <Header />
-      <Footer />
-      <div className='mainButtons'>
-        <Button text='Specialty Drinks' color='green'/>
-        <Button text='Delicious Food' color='blue'/>
-      </div>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
   );
 }
 
