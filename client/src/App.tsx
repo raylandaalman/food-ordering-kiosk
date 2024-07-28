@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 
-import Home from './routes/home/home';
+import Home from './routes/home/home.component';
 
 const App: React.FC = (): JSX.Element => {
   return (
