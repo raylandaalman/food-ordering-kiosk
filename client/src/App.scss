@@ -2,27 +2,3 @@
   margin: 0;
   padding: 0;
 }
-
-.App {
-  text-align: center;
-  height: 100vh;
-  background-image: url("./images/main-food-drink.png");
-  background-size: cover;
-/*
-  img {
-    background-position: center;
-    z-index: 0;
-  }
-*/
-  .mainButtons {
-    position: relative;
-    height: 80vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    margin: 0 10%;
-
-  }
-
-}
-

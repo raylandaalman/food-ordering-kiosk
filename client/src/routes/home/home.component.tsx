@@ -2,6 +2,8 @@ import Header from '../../components/header/header.component';
 import Footer from '../../components/footer/footer.component';
 import Button from '../../components/button/button.component';
 
+import './home.styles.scss';
+
 const Home: React.FC = (): JSX.Element => {
   return (
     <div className="App">
