@@ -1,8 +1,13 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
   height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
   background-image: url("../../images/main-food-drink.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 /*
   img {
     background-position: center;
@@ -11,7 +16,7 @@
 */
   .mainButtons {
     position: relative;
-    height: 80vh;
+    height: 75%;
     display: flex;
     justify-content: space-between;
     align-items: end;
